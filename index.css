@@ -104,15 +104,16 @@ button {
   max-width: 70%;
   width: 100%;
   margin: 100px auto;
-  display: flex;
-  align-items: center;
-}
-.soft__top h2 {
   font-weight: 600;
   font-size: 100px;
-  line-height: 110px;
+  line-height: 70px;
   color: #f8ba0e;
 }
-.soft__top h2 span {
+.soft__top .soft__top-violet {
   color: #c970ee;
+}
+.soft__top-lower {
+  font-weight: 500;
+  font-size: 40px;
+  color: #000;
 }
