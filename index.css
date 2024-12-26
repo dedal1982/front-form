@@ -57,6 +57,7 @@ button {
   background: url(./images/promo-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 }
 .promo__wrapper {
   height: 100%;
@@ -79,6 +80,14 @@ button {
 }
 .promo__text p {
   font-weight: 300;
-  font-size: 50px;
+  font-size: 30px;
   color: #fff;
+}
+.promo__copyright {
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000;
 }
