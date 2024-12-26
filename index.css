@@ -100,3 +100,19 @@ button {
   display: flex;
   flex-direction: column;
 }
+.soft__top {
+  max-width: 70%;
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+}
+.soft__top h2 {
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 110px;
+  color: #f8ba0e;
+}
+.soft__top h2 span {
+  color: #c970ee;
+}
