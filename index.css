@@ -32,8 +32,7 @@ button {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  font-family: "Proxima Nova Condensed", sans-serif;
-  font-family: "Proxima Nova Extra Condensed", sans-serif;
+  font-family: "Inter", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -45,4 +44,41 @@ button {
 }
 .footer {
   flex: 0 0 auto;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*promo*/
+.promo {
+  width: 100%;
+  height: 100dvh;
+  background: url(./images/promo-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.promo__wrapper {
+  height: 100%;
+  display: flex;
+}
+.promo__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 260px auto 100px 90px;
+}
+.promo__text h1 {
+  font-weight: 600;
+  font-size: 120px;
+  line-height: 110px;
+  color: #f8ba0e;
+}
+.promo__text h1 span {
+  color: #c970ee;
+}
+.promo__text p {
+  font-weight: 300;
+  font-size: 50px;
+  color: #fff;
 }
