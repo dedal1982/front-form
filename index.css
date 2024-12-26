@@ -99,11 +99,12 @@ button {
 .soft__wrapper {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 .soft__top {
   max-width: 70%;
   width: 100%;
-  margin: 100px auto;
+  margin: auto auto 100px;
   font-weight: 600;
   font-size: 100px;
   line-height: 70px;
@@ -116,4 +117,35 @@ button {
   font-weight: 500;
   font-size: 40px;
   color: #000;
+}
+.soft__bottom {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 50%;
+}
+.soft__bottom-left {
+  width: 40%;
+  height: 100%;
+  background: url(./images/promo-bg-arr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 70px;
+  color: #000;
+  text-align: center;
+}
+.soft__bottom-right {
+  width: 59%;
+  height: 100%;
+  background: #c970ee;
+  display: flex;
+  padding: 100px;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 40px;
+  color: #fff;
 }
