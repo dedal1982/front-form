@@ -251,7 +251,6 @@ button {
   margin: 150px auto 0;
 }
 .medium__row {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
