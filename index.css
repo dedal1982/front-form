@@ -102,7 +102,7 @@ button {
   height: 100%;
 }
 .soft__top {
-  max-width: 70%;
+  max-width: 80%;
   width: 100%;
   margin: auto auto 100px;
   font-weight: 600;
@@ -153,9 +153,51 @@ button {
 .indicative {
   width: 100%;
   height: 100dvh;
+  border: 1px solid red;
 }
 .indicative__wrapper {
+  width: 80%;
   display: flex;
   gap: 100px;
-  margin: auto auto 100px;
+  margin: 200px auto 100px;
+  border: 1px solid red;
+}
+.indicative__text {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.indicative__title {
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 110px;
+  color: #f8ba0e;
+}
+.indicative__subtitle {
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 110px;
+  color: #c970ee;
+}
+.indicative__gray {
+  width: 100%;
+  height: 500px;
+  background: #f3f3f3;
+  padding: 50px 20px 100px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gray-title {
+  font-weight: 500;
+  font-size: 50px;
+  color: #32364d;
+}
+.gray-number {
+  font-weight: 5700;
+  font-size: 50px;
+  color: #000;
+  text-align: center;
 }
