@@ -379,3 +379,10 @@ input:focus::placeholder {
   border: none;
   text-align: center;
 }
+.parameters__button {
+  width: 300px;
+  height: 150px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
