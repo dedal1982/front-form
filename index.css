@@ -335,7 +335,7 @@ input:focus::placeholder {
   justify-content: center;
 }
 .parameters__wrapper {
-  width: 82%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -388,6 +388,7 @@ input:focus::placeholder {
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 50px;
 }
 .parameters__grid-item {
   display: flex;
@@ -401,6 +402,9 @@ input:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.check-violet {
+  border: 3px solid #c970ee;
 }
 .parameters__text {
   display: flex;
