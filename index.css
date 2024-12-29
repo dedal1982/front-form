@@ -536,6 +536,7 @@ input:focus::placeholder {
 .ratio__forms {
   display: flex;
   align-items: center;
+  gap: 100px;
 }
 .ratio__item {
   display: flex;
@@ -545,8 +546,8 @@ input:focus::placeholder {
   position: relative;
 }
 .ratio__item input {
-  width: 250px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   font-weight: 500;
   font-size: 50px;
   color: #32364d;
@@ -558,12 +559,12 @@ input:focus::placeholder {
   text-align: center;
 }
 .ratio__circle {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background: #f8ba0e;
   position: absolute;
-  top: -25%;
+  top: -20%;
   left: 50%;
   transform: translate(-50%, 0);
   display: flex;
