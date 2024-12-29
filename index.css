@@ -528,6 +528,7 @@ input:focus::placeholder {
 .ratio__inner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .ratio__items {
   display: flex;
@@ -595,10 +596,13 @@ input:focus::placeholder {
 .ratio__button {
   width: 400px;
   height: 100px;
-  background: #c970ee;
   position: absolute;
   bottom: 150px;
   font-weight: 500;
   font-size: 30px;
   color: #000;
+  background: #f8ba0e;
+}
+.button-violet {
+  background: #c970ee;
 }
