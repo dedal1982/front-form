@@ -353,5 +353,29 @@ input:focus::placeholder {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 100px;
+  margin: 80px auto;
+}
+.parameters__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.parameters__label {
+  font-weight: 600;
+  font-size: 30px;
+  color: #f8ba0e;
+}
+.parameters__item input {
+  width: 100px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #32364d;
+  background: #f3f3f3;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border: none;
+  text-align: center;
 }
