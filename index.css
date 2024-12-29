@@ -476,4 +476,22 @@ input:focus::placeholder {
   background: url(./images/promo-bg-rez.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+}
+.result__end-text {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: auto auto 300px 100px;
+}
+.result__end-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.result__end-item h3 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
 }
