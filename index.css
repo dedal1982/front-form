@@ -592,3 +592,13 @@ input:focus::placeholder {
   font-size: 50px;
   color: #c970ee;
 }
+.ratio__button {
+  width: 400px;
+  height: 100px;
+  background: #c970ee;
+  position: absolute;
+  bottom: 150px;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+}
