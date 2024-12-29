@@ -476,13 +476,14 @@ input:focus::placeholder {
   background: url(./images/promo-bg-rez.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
 }
 .result__end-text {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin: auto auto 300px 100px;
+  margin: auto auto 200px 100px;
 }
 .result__end-item {
   display: flex;
@@ -494,4 +495,9 @@ input:focus::placeholder {
   font-size: 30px;
   color: #fff;
   text-transform: uppercase;
+}
+.result__end-des {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
 }
