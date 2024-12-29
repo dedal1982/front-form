@@ -96,7 +96,12 @@ button {
   width: 100%;
   height: 100dvh;
 }
-.soft__wrapper {
+.soft__wrapper,
+.solid__wrapper {
+  display: none;
+}
+.soft__wrapper.active,
+.solid__wrapper.active {
   display: flex;
   flex-direction: column;
   gap: 150px;
@@ -125,7 +130,8 @@ button {
   width: 100%;
   height: 50%;
 }
-.soft__bottom-left {
+.soft__bottom-left,
+.solid__bottom-left {
   width: 40%;
   height: 100%;
   background: url(./images/promo-bg-arr.png);
@@ -138,6 +144,7 @@ button {
   font-size: 70px;
   color: #000;
   text-align: center;
+  cursor: pointer;
 }
 .soft__bottom-right {
   width: 59%;
